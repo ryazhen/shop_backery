@@ -1,0 +1,77 @@
+.contact-section {
+  padding-bottom: 0px;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding-bottom: 48px;
+  }
+
+  @media screen and (min-width: $bp-desktop) {
+    padding-bottom: 96px;
+  }
+
+  // & > .container {
+  //   padding-bottom: 0;
+  // }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    gap: 24px;
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      gap: 32px;
+    }
+  }
+
+  &__form {
+    @media screen and (min-width: $bp-tablet) {
+      flex-basis: calc((100% - 32px) / 2);
+    }
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__text {
+    color: var(--color-brand-dark);
+    margin-bottom: 24px;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 42px;
+    }
+  }
+
+  &__form-field {
+    margin-bottom: 16px;
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 24px;
+    }
+  }
+  &__button {
+    display: block;
+    margin: 0 auto 16px;
+  }
+  &__map {
+    height: 176px;
+    margin: 0 -24px;
+    border: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-basis: calc((100% - 32px) / 2);
+      margin: auto;
+      width: 320px;
+      height: 500px;
+      align-self: center;
+      border-radius: 16px;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      width: 600px;
+      height: 595px;
+    }
+  }
+}

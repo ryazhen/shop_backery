@@ -1,0 +1,12 @@
+.logo {
+  width: 72px;
+  height: 38px;
+  fill: var(--color-primary-light);
+  @media screen and (min-width: $bp-mobile) {
+    width: 114px;
+    height: 56px;
+  }
+  &-mobile {
+    fill: var(--color-primary-dark);
+  }
+}

@@ -985,6 +985,7 @@ ul {
   fill: var(--color-primary-dark);
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .backdrop {
@@ -1053,6 +1054,7 @@ ul {
   height: 32px;
   background-color: transparent;
   fill: var(--color-primary-dark);
+  cursor: pointer;
 }
 .modal__form-field {
   margin-bottom: 16px;

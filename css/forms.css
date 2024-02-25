@@ -1,0 +1,147 @@
+.form-field {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.form-label {
+  position: absolute;
+  top: 16px;
+  left: 42px;
+}
+
+.form-input {
+  padding: 16px 42px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.17;
+  border: 1px solid var(--color-secondary-dark);
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.form-input:focus {
+  border-color: var(--color-brand-normal);
+  outline: none;
+}
+
+.form-input:disabled::-webkit-input-placeholder {
+  color: lightgray;
+}
+
+.form-input:disabled::-moz-placeholder {
+  color: lightgray;
+}
+
+.form-input:disabled:-ms-input-placeholder {
+  color: lightgray;
+}
+
+.form-input:disabled::-ms-input-placeholder {
+  color: lightgray;
+}
+
+.form-input:disabled::placeholder {
+  color: lightgray;
+}
+
+.form-input::-webkit-input-placeholder {
+  color: var(--color-secondary-dark);
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.form-input::-moz-placeholder {
+  color: var(--color-secondary-dark);
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.form-input:-ms-input-placeholder {
+  color: var(--color-secondary-dark);
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.form-input::-ms-input-placeholder {
+  color: var(--color-secondary-dark);
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.form-input::placeholder {
+  color: var(--color-secondary-dark);
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.form-input:focus::-webkit-input-placeholder {
+  color: var(--color-primary-dark);
+}
+
+.form-input:focus::-moz-placeholder {
+  color: var(--color-primary-dark);
+}
+
+.form-input:focus:-ms-input-placeholder {
+  color: var(--color-primary-dark);
+}
+
+.form-input:focus::-ms-input-placeholder {
+  color: var(--color-primary-dark);
+}
+
+.form-input:focus::placeholder {
+  color: var(--color-primary-dark);
+}
+
+.form-button {
+  display: block;
+  margin: 0 auto 24px;
+}
+
+.form-terms {
+  margin: 0 auto;
+  max-width: 210px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.form-terms-link {
+  color: var(--color-primary-dark);
+  text-underline-offset: 2px;
+}
+
+.form-terms-link:hover {
+  color: var(--color-secondary-dark);
+  text-decoration: none;
+}
+
+/* **************Checkbox************************* */
+/* .checkbox {
+  position: relative;
+}
+.checkbox-input {
+  appearance: none;
+}
+.checkbox-input:checked + .checkbox-label::before {
+  background: url("../images/checked.svg");
+  background-size: 14px 13px;
+  background-repeat: no-repeat;
+}
+.checkbox-label {
+  padding-left: 30px;
+}
+
+.checkbox-label::before {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0px;
+  left: 0px;
+  margin-top: 5px;
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 2px;
+  content: "";
+} *//*# sourceMappingURL=forms.css.map */

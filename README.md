@@ -1,1 +1,2 @@
-![image](https://github.com/user-attachments/assets/2c7fe234-896f-42a0-b3de-5aaf1d87abd3)
+
+![image_2024-08-08_19-05-47](https://github.com/user-attachments/assets/249809db-c39b-4eb9-98f8-d5fae4be7db0)
